@@ -19,7 +19,7 @@ index=Students_roll.index(stud_roll)
 print("The Name of Student is: " ,Students_name[index])
 print("The E-mail of Student is: ",Students_email[index])
 
-stud_roll_pop=int(input("Enter the roll number whose information you want to delete: "))
+stud_roll_pop=int(input("Enter the roll number whose information you want to remove: "))
 index_pop=Students_roll.index(stud_roll_pop)
 Student_details.pop(index_pop)
 print(len(Student_details))
