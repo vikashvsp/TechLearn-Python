@@ -16,3 +16,4 @@ while transaction>0:
     if budget<=0:
         print("Your budget exhausted!")
         break
+
