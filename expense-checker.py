@@ -14,5 +14,5 @@ while transaction>0:
         ticket+=spent
     else: food+= spent
     if budget<=0:
-        print("Your budget exhausted!")
+        print("Your budget finished!")
         break
